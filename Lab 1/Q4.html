@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 1 Q4</title>
+	<style type="text/css">
+		.form-div {
+			width: 400px;
+			height: 300px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			border: 2px solid grey;
+		}
+
+		.form-div .input-box {
+			width: 380px;
+			height: 20px;
+			margin: 10px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="form-div"  style="overflow-y: auto;">
+		<form>
+			<input type="image" alt="Logo" src="C:\Users\OSLAB\Desktop\C42\logo.png">
+			<input type="text" name="name" class="input-box"></input><br>
+			<select name="specialistion" class="input-box">
+				<option value="Computer Vision">Computer Vision</option>
+				<option value="Machine Learning">Machine Learning</option>
+				<option value="Web Development">Web Development</option>
+			</select><br>
+			<textarea name="description" class="input-box"></textarea>
+			<input type="submit" onclick="submitValue(this.form)" value="Submit" class="input-box"></input>
+			<input type="reset" value="Cancel" class="input-box">
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		function submitValue(form) {
+			alert("Value submitted, Name: "  + form.name.value + ", specialistion: " + form.specialistion.value + ", description: " + form.description.value);
+			form.name.value = "";
+			form.specialistion.value = "";
+			form.description.value = "";
+		}
+	</script>
+</body>
+</html>

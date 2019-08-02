@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 1 Q3</title>
+	<style type="text/css">
+	</style>
+</head>
+<body onload="bounce(50, 0)">
+	<canvas class="canvasDiv" height="700px" width="300px" style="border: 2px solid grey"></canvas>
+	<script type="text/javascript">
+		var ele = document.getElementsByClassName("canvasDiv");
+		var ctx = ele[0].getContext("2d");
+
+		function bounce(y, k) {
+			ctx.clearRect(0, 0, ele[0].width, ele[0].height);
+			ctx.beginPath();
+			ctx.arc(150, y, 50, 0, 2 * Math.PI);
+			ctx.stroke();
+			if(k == 0) {
+				if(y == 650) {
+					k = 1;
+					y -= 1;
+				}
+				y += 1;
+				setTimeout(bounce, 1, y, k);
+			} else {
+				if(y == 50) {
+					k = 0;
+					y += 1;
+				}
+				y -= 1;
+				setTimeout(bounce, 1, y, k);
+			}
+		}
+	</script>
+</body>
+</html>

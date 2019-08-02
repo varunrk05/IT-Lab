@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab1 Q1</title>
+	<style>
+		.rect {
+			width: 200px;
+			height: 100px;
+		}
+
+		#r1 {
+			position: absolute;
+			left: 20px;
+			top: 50px;
+			background-color: rgb(100, 100, 100);
+		}
+
+		#r2 {
+			position: absolute;
+			left: 240px;
+			top: 50px;
+			background-color: rgb(120, 120, 120);
+		}
+
+		#r3 {
+			position: absolute;
+			left: 20px;
+			top: 250px;
+			background-color: rgb(140, 140, 140);
+		}
+
+		#r4 {
+			position: absolute;
+			left: 240px;
+			top: 250px;
+			background-color: rgb(160, 160, 160);
+		}		
+	</style>	
+</head>
+<body>
+	<div class="rect" id="r1" onclick="getPosValue(this);">
+	</div>
+	<div class="rect" id="r2" onclick="getPosValue(this);">
+	</div>
+	<div class="rect" id="r3" onclick="getPosValue(this);">
+	</div>
+	<div class="rect" id="r4" onclick="getPosValue(this);">
+	</div>
+	<script type="text/javascript">
+		function getPosValue(element) {
+			var ele = element.getBoundingClientRect();
+			alert("Element is " + ele.left + "px from left and " + ele.top + "px from top");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 1 Q2</title>
+	<style type="text/css">
+		.time-div {
+			position: absolute;
+			width: 500px;
+			height: 125px;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background: linear-gradient(to right, rgb(255, 100, 100), rgb(100, 100, 255));
+			color: rgb(255, 255, 255);
+			font-size: 100px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body onload="start()">
+	<div class="time-div" id="divTime">
+	</div>
+
+	<script type="text/javascript">
+		function manageDigit(x) {
+			if(x < 10)
+				x = "0" + x;
+			return x;
+		}	
+
+		function alertUser() {
+			alert("It's time!");
+			setTimeout(alertUser, 10000);
+		}
+
+		function showTime() {
+			var t = new Date();
+			var h = t.getHours();
+			var m = t.getMinutes();
+			var s = t.getSeconds();
+
+			h = manageDigit(h);
+			m = manageDigit(m);
+			s = manageDigit(s);
+
+			var ele = document.getElementById("divTime");
+			ele.innerHTML = h + ":" + m + ":" + s;
+			// console.log( h + ":" + m + ":" + s);
+			setTimeout(showTime, 1000);
+		}
+
+		function start() {
+			showTime();
+			alertUser();
+		}
+	</script>
+</body>
+</html>
