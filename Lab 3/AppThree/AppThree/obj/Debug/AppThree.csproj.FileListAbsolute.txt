@@ -1,0 +1,7 @@
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\bin\Debug\AppThree.exe.config
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\bin\Debug\AppThree.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\bin\Debug\AppThree.pdb
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\obj\Debug\AppThree.csprojAssemblyReference.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\obj\Debug\AppThree.csproj.CoreCompileInputs.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\obj\Debug\AppThree.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppThree\AppThree\obj\Debug\AppThree.pdb

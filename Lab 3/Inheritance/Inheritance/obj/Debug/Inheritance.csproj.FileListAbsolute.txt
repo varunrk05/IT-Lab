@@ -1,0 +1,7 @@
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

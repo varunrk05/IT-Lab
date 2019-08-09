@@ -1,0 +1,7 @@
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\obj\Debug\AppOne.csprojAssemblyReference.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\obj\Debug\AppOne.csproj.CoreCompileInputs.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\bin\Debug\AppOne.exe.config
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\bin\Debug\AppOne.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\bin\Debug\AppOne.pdb
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\obj\Debug\AppOne.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppOne\AppOne\obj\Debug\AppOne.pdb

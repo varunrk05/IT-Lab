@@ -1,0 +1,6 @@
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\bin\Debug\AppTwo.exe.config
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\bin\Debug\AppTwo.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\bin\Debug\AppTwo.pdb
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\obj\Debug\AppTwo.csproj.CoreCompileInputs.cache
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\obj\Debug\AppTwo.exe
+C:\Users\OSLAB\Desktop\C42\Lab 3\AppTwo\AppTwo\obj\Debug\AppTwo.pdb
